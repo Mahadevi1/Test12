@@ -19,7 +19,7 @@ public class GoogleSearch {
 	public void browser_is_open() 
 	{
 		System.out.println("Browser is Open");
-		String projectpath=System.getProperty("user.dir");
+		String projectpath=System.getProperty("user.dir");;
 		System.out.println("Project path="+projectpath);
 
 		System.setProperty("webdriver.chrome.driver",projectpath+"/src/test/resources/Drivers/chromedriver.exe");  // Double back \\ slash will work only on windows,but single / slash will work on all system
