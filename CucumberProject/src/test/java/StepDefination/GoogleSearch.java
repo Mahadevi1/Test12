@@ -23,7 +23,7 @@ public class GoogleSearch {
 		System.out.println("Project path="+projectpath);
 
 		System.setProperty("webdriver.chrome.driver",projectpath+"/src/test/resources/Drivers/chromedriver.exe");  // Double back \\ slash will work only on windows,but single / slash will work on all system
-		driver=new ChromeDriver();;;
+		driver=new ChromeDriver();;
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
