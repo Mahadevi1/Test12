@@ -18,7 +18,7 @@ public class GoogleSearch {
 	@Given("browser is open")
 	public void browser_is_open() 
 	{
-		System.out.println("Browser is Open");
+		System.out.println("Browser is Open");;
 		String projectpath=System.getProperty("user.dir");;
 		System.out.println("Project path="+projectpath);
 
